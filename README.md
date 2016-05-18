@@ -69,9 +69,9 @@ grunt.initConfig({
   cloudflare_purge: {
     default: {
       options: {
-        apiKey: cloudflare.key,
-        email: cloudflare.email,
-        zone: cloudflare.zone
+        apiKey: "123465798",
+        email: "buenaventura.durruti@fai.com",
+        zone: "fai.com"
       }
     }
   }
