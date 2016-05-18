@@ -1,0 +1,39 @@
+{
+  "name": "grunt-cloudflare-purge",
+  "description": "Purge the CloudFlare cache.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ghinda/grunt-cloudflare-purge",
+  "author": {
+    "name": "Ionut Colceriu",
+    "email": "contact@ghinda.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ghinda/grunt-cloudflare-purge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ghinda/grunt-cloudflare-purge/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ghinda/grunt-cloudflare-purge/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt": "~1.0.0"
+  },
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "cloudflare"
+  ]
+}
