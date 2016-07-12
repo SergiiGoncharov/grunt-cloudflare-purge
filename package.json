@@ -1,18 +1,18 @@
 {
-  "name": "grunt-cloudflare-purge",
+  "name": "grunt-cloudflare-purge-fp",
   "description": "Purge the CloudFlare cache.",
   "version": "0.1.0",
-  "homepage": "https://github.com/ghinda/grunt-cloudflare-purge",
+  "homepage": "https://github.com/SergiiGoncharov/grunt-cloudflare-purge-fp",
   "author": {
-    "name": "Ionut Colceriu",
-    "email": "contact@ghinda.net"
+    "name": "SergiiGoncharov FprmaPro",
+    "email": "etype@bk.ru"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ghinda/grunt-cloudflare-purge.git"
+    "url": "git@github.com:SergiiGoncharov/grunt-cloudflare-purge-fp.git"
   },
   "bugs": {
-    "url": "https://github.com/ghinda/grunt-cloudflare-purge/issues"
+    "url": "https://github.com/SergiiGoncharov/grunt-cloudflare-purge-fp/issues"
   },
   "licenses": [
     {

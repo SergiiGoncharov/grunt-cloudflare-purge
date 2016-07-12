@@ -29,7 +29,8 @@ module.exports = function(grunt) {
     };
 
     cloudflareApi.getZones({
-      headers: headers
+      headers: headers,
+      zone: options.zone
     }, function (err, res) {
       if (err) {
         grunt.log.error(JSON.stringify(err));

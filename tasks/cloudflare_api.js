@@ -6,9 +6,13 @@ var apiHost = 'api.cloudflare.com';
 var apiUrl = '/client/v4';
 
 function getZones (params, callback) {
+  if (params.skip){
+    callback(null); 
+    return;
+  }
   var postReq = https.request({
     host: apiHost,
-    path: apiUrl + '/zones',
+    path: apiUrl + '/zones?per_page=50&name=' + params.zone,
     method: 'GET',
     headers: params.headers
   }, function(res) {
